@@ -1,0 +1,34 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+/*googleips 웹폰트 css 파일 불러오기*/
+@import url(https://fonts.googleapis.com/css?family=Galada|Nanum+Gothic|Nanum+Myeongjo);
+/*font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Galada', cursive; */
+
+/* 저장된 글꼴 파일 선언*/
+/* @font-face { font-family : font_gothic;  
+                        font-weight:400;  
+                src : url(../font/NanumGothic.ttf); }  */
+/* 웹사이트의 글꼴 파일 선언*/
+/* @font-face { font-family : font_gothic;    
+                src : url(http://uhbee.com/nanum.eot) ; }   
+                파일 다운 안받고 연결 가능하다~*/
+
+
+* {margin:0; padding:0;}
+html{font-size: 16px; /* rem의 기준이 된다 1.0*/}
+body{ font-size:16px;
+      color:#6f6f6f;
+      font-family: 'Noto Sans KR', sans-serif; }
+ul, ol, li{list-style-type:none;}
+img, fieldset{border:none;vertical-align: middle; outline:0;}
+hr {clear:both;border:none;}
+a {color:inherit;text-decoration:none;}
+table{border-collapse:collapse;}
+input, textarea {color:inherit;font-size:inherit;
+       font-family:inherit;
+       vertical-align: middle;
+       outline:0;}
+button{outline:0;}
