@@ -248,7 +248,7 @@ align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: auto 30px;
+    /* margin: auto 30px; */
 }
 .device h2{
     width: 100%;
